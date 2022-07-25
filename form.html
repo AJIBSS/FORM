@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form method="post" action= "apply-now.php">
+        <input name="subject" type="hidden" value="Class" />
+    <center><fieldset style="width: 350px; height: 580px;text-align: justify;">
+            <legend style="font-size: 35px; font-family: Arial;">Personal Information</legend>
+            <br>
+            <label for="sname">Surname:</label>
+            <input type="text" name="sname"/>
+            <br><br>
+            <label for="fname">First Name:</label> 
+            <input type="text" name="fname" />
+            <br> <br>
+            <label for="mname"> Middle Name:</label> 
+            <input type="text" name="lname" />
+            <br> <br>
+            <label for="gmail">Email:</label>
+            <input type="email" />
+            <br><br>
+            <label for="password">Password:</label>
+            <input type="password" /> 
+            <br><br>
+            <label for="confirm password">Confirm Password</label>
+            <input type="confirm password"/>
+            <br><br>
+                Gender:
+                <input name="gender" type="radio" id="gm" value="m"/>
+                <label for="gm">Male</label>
+                <input name="gender" type="radio" id="gf" value="f"/>
+                <label for="gm">Female</label>
+                <input name="gender" type="radio" id="go" value="o"/>
+                <label for="gm">Others</label>
+            <br>
+            <br>
+            <label>State of Origin</label>
+            <input type="text" name="state of origin">
+            <br><br>
+            <label>L.G.A</label>
+            <input type="text" name="LGA">
+            <br><br>
+            <label>Phone Number:</label>
+            <input type="text" name="country code" value="+234" size="1">
+            <input type="text" name="phone number" placeholder="phone number" size="15"> <br><br>
+            Address:
+            <br>
+            <textarea name="address"  cols="40" rows="5"></textarea>
+            <input type="button" value="Submit" style="width: 80px;"/>
+            <input type="button" value="Reset" style="width: 80px;"/>  
+        </center>
+        </fieldset>
+     </form>
+</body>
+</html>
